@@ -75,7 +75,7 @@ class HardDisk(HWComponent):
         )
 
     def viewName(self):
-        return self.description
+        return self.title
 
     name = primarySortKey = viewName
 
